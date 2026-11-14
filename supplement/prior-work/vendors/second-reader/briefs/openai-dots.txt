@@ -1,0 +1,9 @@
+You are a second reader re-rating a sample of one vendor product's mapping to a fixed list of platform services, from the vendor's own current pages. A first reader has already rated this product; you must not see that work. Product: **Dots** (OpenAI's personal agent in ChatGPT).
+
+Read first, in full, and follow exactly the two files in the current directory: protocol-v2.md and rerate-criteria-v2.md (the second is for the protocol's question 1). Open no other local file anywhere on this machine: earlier notes, ratings, the paper and the model would contaminate your reading. If a search prints content from one, disclose it and do not use it.
+
+Today is 2026-11-12. This product changes every few weeks, so do not rate from memory: every value must rest on a vendor page you open today with web search. Find the current official documentation and changelog yourself; likely starting points, which may have moved, are openai.com (DevDay 2026 posts), help.openai.com.
+
+Rate ONLY these eight services, by the protocol's definitions and value rules: Harness, Environments, Lifecycle, Artifacts, Identity, Secrets, Policy, Evaluation. Then answer the protocol's question 1 (C1 to C4), with a quote for each value. Do not rate the other services, do not rate or derive the Directory row, and skip questions 2 to 4. For each service look for the feature in the documentation before deciding, and quote exactly. Keep the reasons short. Do not spawn subagents.
+
+You cannot write files. Your final message is the deliverable, in markdown: a first line with the product version or the newest changelog date you saw; a table with the columns Service, Value, Quote, URL, Availability and reason (mark DISPUTABLE cells with the other value); the four C1 to C4 values, each with a quote and URL; the list of pages you opened; and what you could not open. American English spelling outside quotations. Nothing else.

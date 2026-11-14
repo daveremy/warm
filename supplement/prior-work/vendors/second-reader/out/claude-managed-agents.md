@@ -1,0 +1,44 @@
+Claude Managed Agents, self-hosted — newest changelog seen: [November 12, 2026](https://platform.claude.com/docs/en/release-notes/overview).
+
+| Service | Value | Quote | URL | Availability and reason |
+|---|---|---|---|---|
+| Environments | **part — DISPUTABLE: yes** | “each session’s worker in a container or pod of its own”; “All agents share the same sandbox, filesystem, and vault credentials” | [Self-hosted overview](https://platform.claude.com/docs/en/managed-agents/self-hosted); [Multiagent orchestration](https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration#how-it-works) | Available by request. Supplied stacks isolate sessions, but agents within a session share their environment. **Yes** is defensible if session isolation suffices. |
+| Scheduling | **part** | “The stack starts 10 workers, and each one runs one session’s container at a time.” | [Quickstart: troubleshooting](https://platform.claude.com/docs/en/managed-agents/self-hosted/quickstart#troubleshooting); [Self-hosted differences](https://platform.claude.com/docs/en/managed-agents/self-hosted/differences) | Available by request. Worker allocation limits concurrent execution. Scheduled deployments and webhooks are absent; timed starts require the customer’s scheduler. |
+| Memory | **yes** | “Every mutation to a memory creates an immutable memory version”; “Who made this change to the memory, or `null` if the author wasn't recorded.” | [Memory: audit changes](https://platform.claude.com/docs/en/managed-agents/memory#audit-memory-changes); [Memory-version reference](https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions/list) | Beta API; self-hosted access by request. Persistent, editable memories have version history and writer/session attribution. Workers synchronize changes; dreams are unavailable. |
+| Registry | **yes** | “Create a reusable, versioned agent configuration.”; “To list, retrieve, delete, and version custom skills” | [Agent setup](https://platform.claude.com/docs/en/managed-agents/agent-setup); [Skills](https://platform.claude.com/docs/en/managed-agents/skills#create-a-custom-skill) | Beta APIs; self-hosted access by request. Agent definitions bundle tools and skills; agents and custom skills are addressable and versioned. Only uploaded skills are supplied on the server. |
+| Channels | **yes** | “Enter a message in the box at the bottom of the page, and send it. The page updates as the agent works.” | [Self-hosted console](https://platform.claude.com/docs/en/managed-agents/self-hosted/console#run-an-agent-from-the-console); [Self-hosted API](https://platform.claude.com/docs/en/managed-agents/self-hosted/call-the-api) | Available by request; beta API. Browser messaging, terminal chat, and application APIs carry requests and responses. Console use requires SSO. |
+| Secrets | **yes** | “sandbox holds only a placeholder for the secret”; “The egress gateway puts the real value into requests to the hosts that the credential lists.” | [Environment variable credentials](https://platform.claude.com/docs/en/managed-agents/self-hosted/agent-identity#environment-variable-credentials) | Available by request; gateway disabled by default. Stored credentials replace placeholders at network egress. Self-hosted injection supports request headers. |
+| Improvement | **no** | “Dreams have no replacement.” | [Self-hosted differences](https://platform.claude.com/docs/en/managed-agents/self-hosted/differences); [Outcomes](https://platform.claude.com/docs/en/managed-agents/define-outcomes); [Session review](https://platform.claude.com/docs/en/managed-agents/secure-deployment-monitoring) | Searched differences, outcomes, review/monitoring, agent updates, and documentation searches for improvement from evaluations and traces. Found artifact revision and manual configuration changes, but no feature proposing agent, skill, or platform changes from evidence. |
+| Reliability | **part — DISPUTABLE: yes** | “On Kubernetes, the kubelet restarts a pod whose probes wait too long.” | [Configuration reference](https://platform.claude.com/docs/en/managed-agents/self-hosted/configuration-reference); [Kubernetes deployment](https://platform.claude.com/docs/en/managed-agents/self-hosted/kubernetes); [Upgrade and recovery](https://platform.claude.com/docs/en/managed-agents/self-hosted/upgrade) | Available by request. Replicated servers, readiness checks, restarts, and recovery instructions cover part of availability and restoration. Database backup/restoration remains operator work. **Yes** is defensible for the supplied Kubernetes recovery mechanisms. |
+
+**C1 — part.** “Route to agents with domain-focused system prompts and tools”. Areas appear as individual specialist agents, not independently defined organizational units. This meets the criterion’s single-agent limitation. [Multiagent orchestration, “What to delegate”](https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration#what-to-delegate).
+
+**C2 — part.** “A system prompt that defines the agent’s behavior and persona.” Responsibilities and specialization are specified per agent; no separate area-level mission and independently fillable roles were found. [Agent configuration fields](https://platform.claude.com/docs/en/managed-agents/agent-setup#agent-configuration-fields).
+
+**C3 — no — DISPUTABLE: part.** “the server records it as part of the creator of each resource.” Searched agent definitions, SSO, resource access, memory attribution, and multitenancy. Found creator records and creator-based access, but no record naming accountable owners or responsible providers. **Part** is defensible if exclusive creator control counts as resource ownership. [Single sign-on, issuer configuration](https://platform.claude.com/docs/en/managed-agents/self-hosted/configure#list-the-identity-provider-in-the-settings-file).
+
+**C4 — part.** “An agent can delegate only to subagents that you list.” Routing uses a coordinator’s configured roster; no generally accessible lookup from capability to handler was found. [Self-hosted differences, multiagent orchestration](https://platform.claude.com/docs/en/managed-agents/self-hosted/differences#features-that-behave-differently).
+
+**Pages opened — all read November 13, 2026:**
+
+- [Claude Platform release notes](https://platform.claude.com/docs/en/release-notes/overview)
+- [Self-hosted Managed Agents overview](https://platform.claude.com/docs/en/managed-agents/self-hosted)
+- [Self-hosted quickstart](https://platform.claude.com/docs/en/managed-agents/self-hosted/quickstart)
+- [Differences from hosted](https://platform.claude.com/docs/en/managed-agents/self-hosted/differences)
+- [Deploy on Kubernetes](https://platform.claude.com/docs/en/managed-agents/self-hosted/kubernetes)
+- [Upgrade self-hosted Managed Agents](https://platform.claude.com/docs/en/managed-agents/self-hosted/upgrade)
+- [Call the self-hosted API](https://platform.claude.com/docs/en/managed-agents/self-hosted/call-the-api)
+- [Self-hosted console](https://platform.claude.com/docs/en/managed-agents/self-hosted/console)
+- [Data and access](https://platform.claude.com/docs/en/managed-agents/self-hosted-data-and-access)
+- [Single sign-on](https://platform.claude.com/docs/en/managed-agents/self-hosted/configure)
+- [Configuration reference](https://platform.claude.com/docs/en/managed-agents/self-hosted/configuration-reference)
+- [Agent identity and credentials](https://platform.claude.com/docs/en/managed-agents/self-hosted/agent-identity)
+- [Define your agent](https://platform.claude.com/docs/en/managed-agents/agent-setup)
+- [Skills](https://platform.claude.com/docs/en/managed-agents/skills)
+- [Using agent memory](https://platform.claude.com/docs/en/managed-agents/memory)
+- [List memory versions](https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions/list)
+- [Multiagent orchestration](https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration)
+- [Define outcomes](https://platform.claude.com/docs/en/managed-agents/define-outcomes)
+- [Review and monitor sessions](https://platform.claude.com/docs/en/managed-agents/secure-deployment-monitoring)
+
+**Could not open:** The guessed [self-hosted `/overview` URL](https://platform.claude.com/docs/en/managed-agents/self-hosted/overview) returned an access error; the linked canonical overview opened successfully. The access-controlled release archive, including its version-specific `CHANGELOG.md` and operator guide, was unavailable; no archive version was verified. Only the two authorized local files were opened; no other local content appeared.

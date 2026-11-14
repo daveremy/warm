@@ -1,0 +1,47 @@
+{
+  "title": "WARM: the Working Agents Reference Model",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "description": "The system of AI agents behind this paper was built one addition at a time and had no shared description. WARM, the Working Agents Reference Model, names the parts of such systems and how they relate. People direct the work, domains define it, agents carry it out, and a platform of 25 services in six groups provides what agents in every domain share. The model is written for systems in which agents finish work without a person approving each action, and its central rule follows from that aim: every stop for a person is recorded and reviewed, whether an action waited for a decision or an agent handed over a task it could not do. The review asks whether the stop needed a person, whether a decision could have been made in advance, and what change would remove the stop next time. The rule is a proposal that the source system does not yet carry out, and it is not new: of 40 sources and products read for it, one received a full rating for such a review and fourteen a partial one, which for some is only an option to always allow an action. Three of the fourteen have a full rating as the readers' recorded alternative. Mappings of three agent platforms and of its source system, and comparisons with fourteen published models, informed it. Every platform service has at least a partial counterpart in nine or more of the seventeen platforms and models. A rating under written criteria found that two of the seventeen define an area of work in their model. Under the stricter reading of disputed cells, none received a full rating for specifying the area apart from the agents that do the work or for recording one accountable area for each responsibility; under the other defensible reading, two and three would. The organizational multi-agent literature of 2002 to 2004 already specifies such areas, and platforms of that literature had already joined an organizational specification to shared infrastructure. Ten vendor products were read from their vendors' documentation: four harnesses, five personal agents and one agent platform. The first readings were made on 12 November 2026, and further readings and decisions on 13 November. As version 0.13 of the model defines the services, every product rates in full on the agent loop, retrieval and tools, and five of the ten on approvals. No reading established a full rating on a directory, identity, policy, evaluation, improvement or releases. One of the ten received a full rating for the record of decisions that version 0.14 adds to approvals. The paper offers one vocabulary across these bodies of work, with the mappings behind it. It is a dated map: the products are changing (one was renamed in the weeks before the reading), and the method is written down so that a mapping can be repeated. WARM is a working model drawn largely from one system, and no evidence yet shows that organizing a system this way improves it. Working paper, version 0.1, with an evidence supplement.",
+  "creators": [
+    {
+      "name": "Remy, Dave",
+      "affiliation": "Independent"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "AI agents",
+    "reference model",
+    "agent platform",
+    "multi-agent systems",
+    "agent governance",
+    "human oversight",
+    "domains of work"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23771170",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23787644",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.24023471",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "working-agents"
+    }
+  ],
+  "version": "0.1",
+  "publication_date": "2026-11-14",
+  "language": "eng"
+}

@@ -1,0 +1,850 @@
+row	kind	class	part	fit	rule
+1	agent definition	one service	Retrieval	strained	
+2	agent definition	other layer	Domains: Finance		
+3	agent definition	other layer	Domains: Software		
+4	agent definition	other layer	Domains: Software		
+5	agent definition	other layer	Domains: Marketing		
+6	agent definition	other layer	Domains: Communications		
+7	agent definition	other layer	Domains: Health		
+8	agent definition	other layer	Domains: Software		
+9	agent definition	misfit			
+10	agent definition	span	Observability, Releases, Reliability		
+11	agent definition	other layer	Domains: Research		
+12	agent definition	other layer	Domains: Software		
+13	agent definition	other layer	Domains: Support		
+14	skill	misfit			
+15	skill	other layer	Domains: Software		
+16	skill	other layer	Domains: Support		
+17	skill	other layer	Domains: Marketing		
+18	skill	one service	Environments	clean	
+19	skill	other layer	Domains: Personal		
+20	skill	other layer	Domains: Software		
+21	skill	other layer	Domains: Software		
+22	skill	other layer	Domains: Communications		
+23	skill	other layer	Domains: Communications		
+24	skill	other layer	Domains: Communications		
+25	skill	other layer	Domains: Software		
+26	skill	other layer	Domains: Software		
+27	skill	other layer	Domains: Software		
+28	skill	other layer	Domains: Communications		
+29	skill	other layer	Domains: Finance		
+30	skill	one service	Evaluation	strained	
+31	skill	one service	Sessions	clean	
+32	skill	other layer	Domains: Health		
+33	skill	other layer	Domains: Health		
+34	skill	span	Scheduling, Lifecycle		
+35	skill	other layer	Domains: Software		
+36	skill	one service	Scheduling	clean	
+37	skill	other layer	Domains: Health		
+38	skill	other layer	Domains: Software		
+39	skill	other layer	Domains: Marketing		
+40	skill	other layer	Domains: Software		
+41	skill	other layer	Domains: Research		
+42	skill	other layer	Domains: Software		
+43	skill	span	Orchestration, Policy		
+44	skill	other layer	Domains: Software		
+45	skill	one service	Channels	clean	
+46	skill	one service	Sessions	clean	
+47	skill	one service	Releases	strained	
+48	skill	other layer	Domains: Marketing		
+49	skill	other layer	Domains: Software		
+50	skill	span	Scheduling, Orchestration		
+51	skill	one service	Artifacts	strained	
+52	skill	other layer	Domains: Personal		
+53	skill	one service	Channels	clean	
+54	skill	other layer	Domains: Health		
+55	skill	other layer	Domains: Communications		
+56	skill	other layer	Domains: Software		
+57	skill	one service	Channels	clean	
+58	skill	span	Tools, Approvals		
+59	skill	other layer	Domains: Marketing		
+60	skill	other layer	Domains: Marketing		
+61	skill	other layer	Domains: Marketing		
+62	hook	one service	Policy	clean	
+63	hook	one service	Observability	clean	
+64	hook	span	Policy, Approvals		
+65	hook	one service	Policy	clean	
+66	hook	one service	Secrets	strained	
+67	hook	one service	Policy	clean	
+68	hook	one service	Harness	strained	
+69	hook	one service	Observability	clean	
+70	hook	one service	Policy	clean	
+71	hook	one service	Secrets	strained	
+72	hook	one service	Approvals	strained	
+73	hook	one service	Policy	clean	
+74	hook	one service	Policy	clean	
+75	hook	span	Policy, Approvals		
+76	hook	one service	Policy	strained	
+77	hook	one service	Policy	clean	
+78	hook	one service	Policy	clean	
+79	hook	one service	Policy	clean	
+80	hook	one service	Policy	strained	
+81	hook	one service	Policy	clean	
+82	hook	span	Policy, Approvals		
+83	hook	one service	Policy	clean	
+84	hook	one service	Policy	clean	
+85	hook	one service	Observability	clean	
+86	hook	one service	Observability	clean	
+87	hook	one service	Approvals	strained	
+88	hook	other layer	Domains: Software		
+89	hook	one service	Approvals	clean	
+90	hook	span	Harness, Messaging		
+91	hook	one service	Evaluation	strained	
+92	hook	one service	Sessions	clean	
+93	hook	span	Sessions, Lifecycle		
+94	hook	one service	Policy	strained	
+95	hook	span	Secrets, Policy		
+96	hook	one service	Identity	strained	
+97	hook	one service	Policy	clean	
+98	job	one service	Observability	strained	
+99	job	other layer	Domains: Software		
+100	job	one service	Reliability	strained	
+101	job	one service	Observability	strained	
+102	job	one service	Reliability	strained	
+103	job	other layer	Domains: Health		
+104	job	one service	Reliability	clean	
+105	job	one service	Reliability	clean	
+106	job	other layer	Domains: Health		
+107	job	one service	Reliability	strained	
+108	job	one service	Tools	clean	
+109	job	one service	Reliability	clean	
+110	job	one service	Reliability	clean	
+111	job	one service	Memory	strained	
+112	job	one service	Reliability	strained	
+113	job	one service	Policy	strained	
+114	job	other layer	Domains: Health		
+115	job	other layer	Domains: Health		
+116	job	other layer	Domains: Software		
+117	job	builder tooling			
+118	job	misfit			
+119	job	one service	Observability	strained	
+120	job	one service	Observability	clean	
+121	job	one service	Reliability	clean	
+122	job	one service	Reliability	strained	
+123	job	one service	Reliability	clean	
+124	job	one service	Reliability	strained	
+125	job	one service	Models	strained	
+126	job	one service	Reliability	clean	
+127	job	one service	Reliability	strained	
+128	job	one service	Reliability	clean	
+129	job	one service	Observability	clean	
+130	job	one service	Reliability	clean	
+131	job	one service	Reliability	clean	
+132	job	one service	Observability	clean	
+133	job	other layer	Domains: Health		
+134	job	one service	Observability	clean	
+135	job	other layer	Domains: Software		
+136	job	one service	Sessions	strained	
+137	job	one service	Reliability	strained	
+138	job	one service	Memory	strained	
+139	job	one service	Reliability	clean	
+140	job	one service	Messaging	clean	
+141	job	one service	Scheduling	strained	
+142	job	one service	Reliability	clean	
+143	job	one service	Reliability	strained	
+144	job	span	Environments, Secrets		
+145	job	other layer	Domains: Software		
+146	job	one service	Reliability	strained	
+147	job	one service	Releases	clean	
+148	job	one service	Releases	strained	
+149	job	one service	Secrets	strained	
+150	job	one service	Releases	clean	
+151	job	one service	Releases	strained	
+152	job	builder tooling			
+153	job	one service	Reliability	strained	
+154	job	other layer	Domains: Software		
+155	job	one service	Reliability	strained	
+156	job	one service	Memory	strained	
+157	job	one service	Memory	clean	
+158	job	one service	Reliability	clean	
+159	job	one service	Reliability	clean	
+160	job	one service	Reliability	clean	
+161	job	other layer	Domains: Software		
+162	job	one service	Evaluation	clean	
+163	job	one service	Scheduling	strained	
+164	job	one service	Reliability	strained	
+165	job	one service	Reliability	strained	
+166	job	builder tooling			
+167	job	one service	Approvals	strained	
+168	job	other layer	Domains: Software		
+169	job	other layer	Domains: Software		
+170	job	one service	Reliability	strained	
+171	job	one service	Reliability	clean	
+172	job	one service	Scheduling	strained	
+173	job	one service	Reliability	strained	
+174	job	one service	Environments	strained	
+175	job	one service	Reliability	clean	
+176	job	one service	Observability	strained	
+177	job	other layer	Infrastructure		
+178	job	other layer	Domains: Software		
+179	job	builder tooling			
+180	job	other layer	Domains: Marketing		
+181	job	one service	Memory	clean	
+182	job	one service	Observability	strained	
+183	job	other layer	Domains: Software		
+184	job	span	Scheduling, Channels		
+185	job	one service	Reliability	strained	
+186	job	one service	Memory	clean	
+187	job	one service	Memory	clean	
+188	job	one service	Reliability	clean	
+189	check	other layer	Domains: Health		
+190	check	one service	Reliability	clean	
+191	check	one service	Scheduling	strained	
+192	check	one service	Releases	strained	
+193	check	other layer	Domains: Software		
+194	check	builder tooling			
+195	check	other layer	Domains: Software		
+196	check	one service	Memory	strained	
+197	check	one service	Reliability	clean	
+198	check	one service	Reliability	clean	
+199	check	other layer	Domains: Finance		
+200	check	one service	Evaluation	clean	
+201	check	one service	Reliability	clean	
+202	check	one service	Reliability	clean	
+203	check	other layer	Domains: Health		
+204	check	one service	Policy	strained	
+205	check	one service	Channels	strained	
+206	check	one service	Reliability	strained	
+207	check	one service	Reliability	clean	
+208	check	one service	Reliability	clean	
+209	check	builder tooling			
+210	check	one service	Releases	strained	
+211	check	builder tooling			
+212	check	one service	Releases	strained	
+213	check	one service	Reliability	strained	
+214	check	other layer	Domains: Software		
+215	check	one service	Scheduling	strained	
+216	check	one service	Reliability	strained	
+217	check	one service	Reliability	strained	
+218	check	one service	Secrets	strained	
+219	check	one service	Reliability	clean	
+220	check	builder tooling			
+221	check	one service	Reliability	strained	
+222	check	one service	Reliability	clean	
+223	check	one service	Reliability	strained	
+224	check	other layer	Domains: Software		
+225	check	other layer	Domains: Marketing		
+226	check	one service	Reliability	clean	
+227	check	one service	Reliability	clean	
+228	check	one service	Reliability	clean	
+229	check	one service	Memory	clean	
+230	check	one service	Memory	strained	
+231	check	one service	Scheduling	strained	
+232	check	one service	Memory	strained	
+233	script or family	misfit			
+234	script or family	builder tooling			
+235	script or family	span	Lifecycle, Models, Channels, Reliability		
+236	script or family	one service	Evaluation	clean	
+237	script or family	other layer	Domains: Finance		
+238	script or family	span			
+239	script or family	one service	Evaluation	strained	
+240	script or family	other layer	Domains: Software		
+241	script or family	one service	Evaluation	clean	
+242	script or family	other layer	Domains: Support		
+243	script or family	other layer	Domains: Software		
+244	script or family	other layer	Domains: Software		
+245	script or family	other layer	Domains: Software		
+246	script or family	one service	Observability	clean	
+247	script or family	other layer	Domains: Health		
+248	script or family	one service	Reliability	strained	
+249	script or family	one service	Memory	strained	
+250	script or family	builder tooling			
+251	script or family	one service	Releases	clean	
+252	script or family	builder tooling			
+253	script or family	builder tooling			
+254	script or family	one service	Tools	clean	
+255	script or family	span	Policy, Evaluation, Reliability		
+256	script or family	builder tooling			
+257	script or family	span	Models, Secrets, Observability, Reliability		
+258	script or family	one service	Channels	clean	
+259	script or family	span	Environments, Messaging		
+260	script or family	span	Models, Orchestration, Evaluation		
+261	script or family	other layer	Domains: Communications		
+262	script or family	span	Scheduling, Reliability		
+263	script or family	other layer	Domains: Software		
+264	script or family	one service	Channels	clean	
+265	script or family	span	Observability, Releases		
+266	script or family	one service	Evaluation	clean	
+267	script or family	other layer	Domains: Software		
+268	script or family	one service	Releases	clean	
+269	script or family	one service	Environments	clean	
+270	script or family	span	Tasks, Releases		
+271	script or family	one service	Directory	clean	
+272	script or family	span	Tasks, Lifecycle		
+273	script or family	span	Memory, Evaluation, Improvement		
+274	script or family	one service	Observability	clean	
+275	script or family	one service	Evaluation	strained	
+276	script or family	one service	Models	clean	
+277	script or family	other layer	Domains: Software		
+278	script or family	one service	Scheduling	clean	
+279	script or family	one service	Evaluation	clean	
+280	script or family	span	Models, Observability		
+281	script or family	other layer	Domains: Software		
+282	script or family	one service	Policy	strained	
+283	script or family	one service	Scheduling	clean	
+284	script or family	span	Policy, Observability		
+285	script or family	other layer	Infrastructure		
+286	script or family	span	Tools, Approvals		
+287	script or family	one service	Evaluation	clean	
+288	script or family	one service	Approvals	clean	
+289	script or family	span	Secrets, Policy		
+290	script or family	other layer	Domains: Health		
+291	script or family	other layer	Domains: Communications		
+292	script or family	one service	Evaluation	strained	
+293	script or family	other layer	Domains: Health		
+294	script or family	other layer	Infrastructure		
+295	script or family	span	Environments, Secrets, Observability, Reliability		
+296	script or family	other layer	Domains: Health		
+297	script or family	one service	Tools	strained	
+298	script or family	one service	Channels	clean	
+299	script or family	one service	Messaging	strained	
+300	script or family	builder tooling			
+301	script or family	other layer	Domains: Software		
+302	script or family	span	Policy, Evaluation		
+303	script or family	one service	Scheduling	clean	
+304	script or family	one service	Improvement	clean	
+305	script or family	one service	Lifecycle	clean	
+306	script or family	span	Observability, Reliability		
+307	script or family	span	Policy, Observability		
+308	script or family	span	Lifecycle, Releases, Reliability		
+309	script or family	span	Scheduling, Messaging		
+310	script or family	span	Secrets, Reliability		
+311	script or family	span	Tools, Reliability		
+312	script or family	one service	Observability	clean	
+313	script or family	one service	Tools	strained	
+314	script or family	one service	Observability	strained	
+315	script or family	span	Policy, Evaluation		
+316	script or family	span	Scheduling, Reliability		
+317	script or family	one service	Policy	clean	
+318	script or family	builder tooling			
+319	script or family	one service	Channels	clean	
+320	script or family	one service	Observability	clean	
+321	script or family	other layer	Domains: Software		
+322	script or family	builder tooling			
+323	script or family	other layer	Domains: Software		
+324	script or family	one service	Reliability	clean	
+325	script or family	one service	Reliability	clean	
+326	script or family	one service	Observability	strained	
+327	script or family	one service	Secrets	clean	
+328	script or family	other layer	Domains: Software		
+329	script or family	span	Messaging, Reliability		
+330	script or family	one service	Approvals	strained	
+331	script or family	one service	Approvals	strained	
+332	script or family	one service	Policy	clean	
+333	script or family	other layer	Domains: Software		
+334	script or family	builder tooling			
+335	script or family	other layer	Domains: Software		
+336	script or family	one service	Evaluation	strained	
+337	script or family	one service	Reliability	strained	
+338	script or family	other layer	Domains: Software		
+339	script or family	other layer	Domains: Support		
+340	script or family	span	Policy, Releases		
+341	script or family	one service	Policy	strained	
+342	script or family	other layer	Domains: Software		
+343	script or family	span	Environments, Scheduling		
+344	script or family	other layer	Domains: Software		
+345	script or family	other layer	Domains: Software		
+346	script or family	span	Environments, Scheduling		
+347	script or family	other layer	Domains: Research		
+348	script or family	builder tooling			
+349	script or family	one service	Evaluation	clean	
+350	script or family	one service	Models	strained	
+351	script or family	span	Releases		
+352	script or family	span			
+353	script or family	one service	Orchestration	strained	
+354	script or family	one service	Secrets	strained	
+355	script or family	other layer	Domains: Software		
+356	script or family	span	Policy, Evaluation		
+357	script or family	one service	Secrets	clean	
+358	script or family	span	Approvals, Reliability		
+359	script or family	other layer	Domains: Software		
+360	script or family	span	Sessions, Scheduling		
+361	script or family	one service	Secrets	clean	
+362	script or family	one service	Registry	strained	
+363	script or family	one service	Messaging	clean	
+364	script or family	one service	Registry	clean	
+365	script or family	other layer	Domains: Software		
+366	script or family	one service	Observability	clean	
+367	script or family	one service	Observability	strained	
+368	script or family	one service	Observability	strained	
+369	script or family	one service	Policy	strained	
+370	script or family	one service	Observability	strained	
+371	script or family	other layer	Domains: Software		
+372	script or family	span	Scheduling, Reliability		
+373	script or family	one service	Scheduling	strained	
+374	script or family	one service	Reliability	strained	
+375	script or family	one service	Improvement	clean	
+376	script or family	one service	Models	strained	
+377	script or family	span	Memory, Reliability		
+378	script or family	span	Scheduling		
+379	script or family	one service	Tools	strained	
+380	script or family	one service	Scheduling	strained	
+381	script or family	span	Observability, Evaluation		
+382	script or family	other layer	Domains: Marketing		
+383	script or family	other layer	Domains: Software		
+384	script or family	one service	Reliability	strained	
+385	script or family	one service	Messaging	clean	
+386	script or family	one service	Observability	strained	
+387	script or family	span			
+388	script or family	one service	Tools	clean	
+389	script or family	one service	Secrets	clean	
+390	script or family	builder tooling			
+391	script or family	builder tooling			
+392	library module	misfit			
+393	library module	one service	Environments	strained	
+394	library module	one service	Observability	clean	
+395	library module	one service	Tools	clean	
+396	library module	one service	Policy	clean	
+397	library module	one service	Environments	strained	
+398	library module	one service	Policy	strained	
+399	library module	one service	Secrets	strained	
+400	library module	one service	Reliability	strained	
+401	library module	one service	Secrets	strained	
+402	library module	one service	Reliability	strained	
+403	library module	one service	Evaluation	clean	
+404	library module	one service	Evaluation	clean	
+405	library module	one service	Evaluation	clean	
+406	library module	builder tooling			
+407	library module	builder tooling			
+408	library module	builder tooling			
+409	library module	one service	Secrets	strained	
+410	library module	one service	Models	strained	
+411	library module	misfit			
+412	library module	one service	Models	strained	
+413	library module	one service	Models	strained	
+414	library module	one service	Evaluation	strained	
+415	library module	one service	Models	strained	
+416	library module	builder tooling			
+417	library module	span	Scheduling, Reliability		
+418	library module	builder tooling			
+419	library module	one service	Evaluation	clean	
+420	library module	one service	Memory	strained	
+421	library module	one service	Memory	strained	
+422	library module	one service	Models	clean	
+423	library module	one service	Secrets	strained	
+424	library module	one service	Observability	clean	
+425	library module	one service	Policy	clean	
+426	library module	other layer	Domains: Software		
+427	library module	one service	Observability	clean	
+428	library module	one service	Tools	strained	
+429	library module	builder tooling			
+430	library module	one service	Tools	strained	
+431	library module	other layer	Domains: Communications		
+432	library module	one service	Evaluation	clean	
+433	library module	one service	Policy	strained	
+434	library module	one service	Models	strained	
+435	library module	one service	Reliability	clean	
+436	library module	one service	Lifecycle	clean	
+437	library module	one service	Reliability	strained	
+438	library module	other layer	Domains: Software		
+439	library module	one service	Evaluation	strained	
+440	library module	one service	Evaluation	strained	
+441	library module	one service	Evaluation	strained	
+442	library module	one service	Evaluation	strained	
+443	library module	one service	Models	strained	
+444	library module	one service	Evaluation	strained	
+445	library module	one service	Observability	clean	
+446	library module	one service	Scheduling	clean	
+447	library module	one service	Scheduling	clean	
+448	library module	builder tooling			
+449	library module	one service	Orchestration	strained	
+450	library module	one service	Observability	clean	
+451	library module	one service	Scheduling	strained	
+452	library module	one service	Reliability	strained	
+453	library module	other layer	Domains: Software		
+454	library module	other layer	Domains: Software		
+455	library module	one service	Channels	strained	
+456	library module	other layer	Domains: Software		
+457	library module	one service	Secrets	clean	
+458	library module	one service	Secrets	clean	
+459	library module	other layer	Domains: Software		
+460	library module	one service	Approvals	strained	
+461	library module	one service	Approvals	strained	
+462	library module	one service	Reliability	strained	
+463	library module	other layer	Domains: Software		
+464	library module	other layer	Domains: Software		
+465	library module	other layer	Domains: Support		
+466	library module	one service	Policy	strained	
+467	library module	span	Environments, Scheduling		
+468	library module	one service	Secrets	strained	
+469	library module	other layer	Domains: Software		
+470	library module	other layer	Domains: Software		
+471	library module	other layer	Domains: Software		
+472	library module	other layer	Domains: Research		
+473	library module	builder tooling			
+474	library module	one service	Evaluation	clean	
+475	library module	one service	Evaluation	clean	
+476	library module	one service	Evaluation	clean	
+477	library module	one service	Evaluation	clean	
+478	library module	other layer	Domains: Finance		
+479	library module	builder tooling			
+480	library module	one service	Orchestration	strained	
+481	library module	one service	Secrets	clean	
+482	library module	one service	Secrets	clean	
+483	library module	one service	Policy	clean	
+484	library module	other layer	Domains: Software		
+485	library module	other layer	Domains: Software		
+486	library module	one service	Tasks	strained	
+487	library module	one service	Tasks	strained	
+488	library module	one service	Tasks	strained	
+489	library module	builder tooling			
+490	library module	other layer	Domains: Software		
+491	library module	other layer	Domains: Software		
+492	library module	builder tooling			
+493	library module	builder tooling			
+494	library module	builder tooling			
+495	library module	builder tooling			
+496	library module	one service	Lifecycle	strained	
+497	library module	other layer	Domains: Health		
+498	library module	one service	Observability	clean	
+499	library module	builder tooling			
+500	library module	one service	Policy	strained	
+501	library module	other layer	Domains: Support		
+502	library module	one service	Environments	strained	
+503	library module	one service	Environments	strained	
+504	package	one service	Memory	clean	
+505	config registry	span	Policy, Reliability		
+506	config registry	builder tooling			
+507	config registry	one service	Evaluation	strained	
+508	config registry	one service	Evaluation	clean	
+509	config registry	one service	Reliability	clean	
+510	config registry	one service	Memory	strained	
+511	config registry	other layer	Infrastructure		
+512	config registry	one service	Improvement	clean	
+513	config registry	builder tooling			
+514	config registry	other layer	Infrastructure		
+515	config registry	other layer	Infrastructure		
+516	config registry	one service	Evaluation	strained	
+517	config registry	one service	Scheduling	clean	
+518	config registry	one service	Scheduling	strained	
+519	config registry	one service	Scheduling	clean	
+520	config registry	one service	Scheduling	clean	
+521	config registry	one service	Scheduling	clean	
+522	config registry	one service	Scheduling	strained	
+523	config registry	one service	Reliability	strained	
+524	config registry	builder tooling			
+525	config registry	one service	Policy	clean	
+526	config registry	builder tooling			
+527	config registry	one service	Policy	clean	
+528	config registry	other layer	Domains: Finance		
+529	config registry	other layer	Domains: Software		
+530	config registry	other layer	Domains: Support		
+531	config registry	one service	Scheduling	clean	
+532	config registry	other layer	Domains: Software		
+533	config registry	other layer	Domains: Research		
+534	config registry	one service	Directory	clean	
+535	config registry	one service	Models	strained	
+536	config registry	one service	Secrets	strained	
+537	config registry	builder tooling			
+538	config registry	builder tooling			
+539	config registry	one service	Registry	clean	
+540	config registry	one service	Scheduling	strained	
+541	config registry	other layer	Domains: Software		
+542	config registry	other layer	Domains: Software		
+543	config registry	other layer	Domains: Software		
+544	config registry	one service	Scheduling	strained	
+545	config registry	one service	Memory	clean	
+546	config registry	one service	Memory	strained	
+547	config registry	one service	Memory	clean	
+548	config registry	one service	Policy	clean	
+549	mcp server or plugin	one service	Environments	clean	
+550	mcp server or plugin	one service	Retrieval	clean	
+551	mcp server or plugin	one service	Tools	clean	
+552	mcp server or plugin	one service	Harness	strained	
+553	mcp server or plugin	one service	Tools	clean	
+554	mcp server or plugin	one service	Tools	clean	
+555	mcp server or plugin	one service	Tools	clean	
+556	mcp server or plugin	one service	Tools	clean	
+557	mcp server or plugin	one service	Tools	clean	
+558	mcp server or plugin	one service	Channels	clean	
+559	mcp server or plugin	one service	Scheduling	strained	
+560	mcp server or plugin	one service	Tools	clean	
+561	mcp server or plugin	one service	Tools	clean	
+562	mcp server or plugin	one service	Retrieval	clean	
+563	mcp server or plugin	other layer	Domains: Personal		
+564	mcp server or plugin	builder tooling			
+565	mcp server or plugin	builder tooling			
+566	systemd unit	one service	Lifecycle	clean	
+567	systemd unit	other layer	Infrastructure		
+568	systemd unit	one service	Environments	clean	
+569	systemd unit	one service	Environments	strained	
+570	harness feature	one service	Sessions	clean	
+571	harness feature	one service	Orchestration	clean	
+572	harness feature	span	Policy, Observability		
+573	harness feature	one service	Scheduling	clean	
+574	harness feature	one service	Memory	clean	
+575	harness feature	one service	Registry	clean	
+576	harness feature	one service	Observability	strained	
+577	harness feature	span	Policy, Approvals		
+578	harness feature	one service	Artifacts	strained	
+579	harness feature	one service	Channels	clean	
+580	harness feature	misfit			
+581	harness feature	one service	Channels	clean	
+582	harness feature	one service	Models	clean	
+583	harness feature	one service	Policy	strained	
+584	harness feature	one service	Tasks	strained	
+585	harness feature	one service	Harness	clean	
+586	harness feature	one service	Tools	clean	
+587	harness feature	one service	Environments	clean	
+588	harness feature	span	Lifecycle, Messaging		
+589	harness feature	one service	Lifecycle	strained	
+590	harness feature	one service	Environments	strained	
+591	harness feature	one service	Harness	strained	
+592	harness feature	one service	Tasks	strained	
+593	external service	other layer	Infrastructure		
+594	external service	one service	Environments	clean	
+595	external service	other layer	Domains: Software		
+596	store	other layer	Domains: Personal		
+597	store	other layer	Domains: Personal		
+598	store	span	Memory, Messaging, Observability		
+599	store	other layer	Domains: Communications		
+600	store	one service	Memory	clean	
+601	store	other layer	Domains: Research		
+602	store	other layer	Domains: Personal		
+603	store	one service	Sessions	strained	
+604	store	one service	Artifacts	strained	
+605	store	other layer	Domains: Support		
+606	store	other layer	Domains: Communications		
+607	store	one service	Observability	strained	
+608	store	one service	Sessions	clean	
+609	store	one service	Memory	clean	
+610	store	one service	Observability	clean	
+611	store	span	Models, Policy, Observability		
+612	store	one service	Memory	strained	
+613	store	other layer	Domains: Research		
+614	store	span	Observability, Releases		
+615	store	one service	Secrets	strained	
+616	store	one service	Secrets	strained	
+617	job	other layer	Domains: Finance		J1
+618	job	other layer	Domains: Finance		J1
+619	job	other layer	Domains: Finance		J1
+620	job	other layer	Domains: Finance		J1
+621	job	other layer	Domains: Finance		J1
+622	job	other layer	Domains: Finance		J1
+623	job	other layer	Domains: Finance		J1
+624	job	other layer	Domains: Finance		J1
+625	job	other layer	Domains: Finance		J1
+626	job	other layer	Domains: Finance		J1
+627	job	other layer	Domains: Finance		J1
+628	job	other layer	Domains: Communications		J2
+629	job	other layer	Domains: Communications		J2
+630	job	other layer	Domains: Communications		J2
+631	job	other layer	Domains: Communications		J2
+632	job	other layer	Domains: Communications		J2
+633	job	other layer	Domains: Communications		J2
+634	job	other layer	Domains: Communications		J2
+635	job	other layer	Domains: Communications		J2
+636	job	other layer	Domains: Communications		J2
+637	job	other layer	Domains: Communications		J2
+638	job	other layer	Domains: Communications		J2
+639	job	other layer	Domains: Communications		J2
+640	job	other layer	Domains: Communications		J2
+641	job	other layer	Domains: Communications		J2
+642	job	other layer	Domains: Communications		J2
+643	job	other layer	Domains: Health		J3
+644	job	other layer	Domains: Health		J3
+645	job	other layer	Domains: Health		J3
+646	job	other layer	Domains: Health		J3
+647	job	other layer	Domains: Health		J3
+648	job	other layer	Domains: Health		J3
+649	job	other layer	Domains: Health		J3
+650	job	other layer	Domains: Health		J3
+651	job	other layer	Domains: Health		J3
+652	job	other layer	Domains: Health		J3
+653	job	other layer	Domains: Health		J3
+654	job	other layer	Domains: Marketing		J4
+655	job	other layer	Domains: Marketing		J4
+656	job	other layer	Domains: Marketing		J4
+657	job	other layer	Domains: Marketing		J4
+658	job	other layer	Domains: Marketing		J4
+659	job	other layer	Domains: Marketing		J4
+660	job	other layer	Domains: Marketing		J4
+661	job	other layer	Domains: Marketing		J4
+662	job	other layer	Domains: Marketing		J4
+663	job	other layer	Domains: Marketing		J4
+664	job	other layer	Domains: Support		J5
+665	job	other layer	Domains: Support		J5
+666	job	other layer	Domains: Support		J5
+667	job	other layer	Domains: Support		J5
+668	job	other layer	Domains: Support		J5
+669	job	other layer	Domains: Support		J5
+670	job	other layer	Domains: Research		J6
+671	job	other layer	Domains: Research		J6
+672	job	other layer	Domains: Research		J6
+673	job	other layer	Domains: Research		J6
+674	job	other layer	Domains: Research		J6
+675	job	other layer	Domains: Research		J6
+676	job	other layer	Domains: Research		J6
+677	job	other layer	Domains: Research		J6
+678	job	other layer	Domains: Research		J6
+679	job	other layer	Domains: Research		J6
+680	job	other layer	Domains: Software		J7
+681	job	other layer	Domains: Software		J7
+682	job	other layer	Domains: Software		J7
+683	job	other layer	Domains: Software		J7
+684	job	other layer	Domains: Software		J7
+685	job	other layer	Domains: Software		J7
+686	job	other layer	Domains: Software		J7
+687	job	other layer	Domains: Software		J7
+688	job	other layer	Domains: Software		J7
+689	job	other layer	Domains: Software		J7
+690	job	other layer	Domains: Software		J7
+691	job	other layer	Domains: Software		J7
+692	job	other layer	Domains: Software		J7
+693	job	other layer	Domains: Software		J7
+694	job	other layer	Domains: Software		J7
+695	job	other layer	Domains: Software		J7
+696	job	other layer	Domains: Software		J7
+697	job	other layer	Domains: Software		J7
+698	job	other layer	Domains: Software		J7
+699	job	other layer	Domains: Software		J7
+700	job	other layer	Domains: Software		J7
+701	job	other layer	Domains: Software		J7
+702	job	other layer	Domains: Software		J7
+703	job	other layer	Domains: Software		J7
+704	job	one service	Reliability	clean	J8
+705	job	one service	Reliability	clean	J8
+706	job	one service	Reliability	clean	J8
+707	job	one service	Reliability	clean	J8
+708	job	one service	Reliability	clean	J8
+709	job	one service	Reliability	clean	J8
+710	job	one service	Reliability	clean	J8
+711	job	one service	Reliability	clean	J8
+712	job	other layer	Domains: Software		J9
+713	job	other layer	Domains: Software		J9
+714	job	other layer	Domains: Software		J9
+715	job	other layer	Domains: Software		J9
+716	job	other layer	Domains: Software		J9
+717	job	other layer	Domains: Software		J9
+718	job	other layer	Domains: Software		J9
+719	job	other layer	Domains: Software		J9
+720	job	other layer	Domains: Software		J9
+721	job	other layer	Domains: Software		J9
+722	job	other layer	Domains: Software		J9
+723	script or family	builder tooling			T1
+724	script or family	builder tooling			T1
+725	script or family	builder tooling			T1
+726	script or family	builder tooling			T1
+727	script or family	builder tooling			T1
+728	script or family	builder tooling			T1
+729	script or family	builder tooling			T1
+730	script or family	builder tooling			T1
+731	script or family	builder tooling			T1
+732	script or family	builder tooling			T1
+733	script or family	builder tooling			T1
+734	script or family	builder tooling			T1
+735	script or family	builder tooling			T1
+736	script or family	builder tooling			T1
+737	script or family	builder tooling			T1
+738	script or family	builder tooling			T1
+739	script or family	builder tooling			T1
+740	script or family	builder tooling			T1
+741	script or family	builder tooling			T1
+742	script or family	builder tooling			T1
+743	script or family	builder tooling			T1
+744	script or family	builder tooling			T1
+745	script or family	builder tooling			T1
+746	script or family	builder tooling			T1
+747	script or family	builder tooling			T1
+748	script or family	builder tooling			T1
+749	script or family	builder tooling			T1
+750	script or family	builder tooling			T1
+751	script or family	builder tooling			T1
+752	script or family	builder tooling			T1
+753	script or family	builder tooling			T1
+754	script or family	builder tooling			T1
+755	script or family	builder tooling			T1
+756	script or family	builder tooling			T1
+757	script or family	builder tooling			T1
+758	script or family	builder tooling			T1
+759	script or family	builder tooling			T1
+760	script or family	builder tooling			T1
+761	script or family	builder tooling			T1
+762	script or family	builder tooling			T1
+763	script or family	builder tooling			T1
+764	script or family	builder tooling			T1
+765	library module	one service	Environments	clean	C1
+766	library module	one service	Environments	clean	C1
+767	library module	one service	Environments	clean	C1
+768	library module	one service	Environments	clean	C1
+769	library module	one service	Environments	clean	C1
+770	library module	one service	Environments	clean	C1
+771	library module	one service	Environments	clean	C1
+772	library module	one service	Environments	clean	C1
+773	library module	one service	Environments	clean	C1
+774	library module	one service	Environments	clean	C1
+775	library module	one service	Environments	clean	C1
+776	mcp server or plugin	one service	Tools	strained	M1
+777	mcp server or plugin	one service	Tools	strained	M1
+778	mcp server or plugin	one service	Tools	strained	M1
+779	mcp server or plugin	one service	Tools	strained	M1
+780	mcp server or plugin	one service	Tools	strained	M1
+781	mcp server or plugin	one service	Tools	strained	M1
+782	mcp server or plugin	one service	Tools	strained	M1
+783	mcp server or plugin	one service	Tools	strained	M1
+784	mcp server or plugin	one service	Tools	strained	M1
+785	mcp server or plugin	one service	Tools	strained	M1
+786	mcp server or plugin	one service	Tools	strained	M1
+787	mcp server or plugin	one service	Tools	strained	M1
+788	mcp server or plugin	one service	Tools	clean	M2
+789	mcp server or plugin	one service	Tools	clean	M2
+790	mcp server or plugin	one service	Tools	clean	M2
+791	mcp server or plugin	one service	Tools	clean	M2
+792	mcp server or plugin	one service	Tools	clean	M2
+793	mcp server or plugin	one service	Tools	clean	M2
+794	mcp server or plugin	one service	Tools	clean	M2
+795	mcp server or plugin	one service	Tools	clean	M2
+796	mcp server or plugin	one service	Tools	clean	M2
+797	mcp server or plugin	one service	Tools	clean	M2
+798	mcp server or plugin	one service	Tools	clean	M2
+799	mcp server or plugin	one service	Tools	clean	M2
+800	mcp server or plugin	one service	Tools	clean	M2
+801	config registry	builder tooling			CI1
+802	config registry	builder tooling			CI1
+803	config registry	builder tooling			CI1
+804	config registry	builder tooling			CI1
+805	config registry	builder tooling			CI1
+806	config registry	builder tooling			CI1
+807	config registry	builder tooling			CI1
+808	config registry	builder tooling			CI1
+809	external service	other layer	Providers		E1
+810	external service	other layer	Providers		E1
+811	external service	other layer	Providers		E1
+812	external service	other layer	Providers		E1
+813	external service	other layer	Providers		E1
+814	external service	other layer	Providers		E1
+815	external service	other layer	Providers		E1
+816	external service	other layer	Providers		E1
+817	external service	other layer	Providers		E1
+818	external service	other layer	Providers		E1
+819	external service	other layer	Providers		E1
+820	external service	other layer	Providers		E1
+821	external service	other layer	Providers		E1
+822	external service	other layer	Providers		E1
+823	external service	other layer	Providers		E1
+824	external service	other layer	Providers		E1
+825	external service	other layer	Providers		E1
+826	external service	other layer	Providers		E1
+827	external service	other layer	Providers		E1
+828	external service	other layer	Providers		E1
+829	external service	other layer	Providers		E1
+830	external service	other layer	Providers		E1
+831	external service	other layer	Providers		E1
+832	external service	other layer	Providers		E1
+833	external service	other layer	Providers		E1
+834	external service	other layer	Providers		E1
+835	external service	other layer	Providers		E1
+836	external service	other layer	Providers		E1
+837	external service	other layer	Providers		E1
+838	external service	other layer	Providers		E1
+839	external service	other layer	Providers		E1
+840	external service	other layer	Providers		E1
+841	external service	other layer	Providers		E1
+842	external service	other layer	Providers		E1
+843	external service	other layer	Providers		E1
+844	external service	other layer	Providers		E1
+845	external service	other layer	Providers		E1
+846	external service	other layer	Providers		E1
+847	external service	other layer	Providers		E1
+848	external service	other layer	Providers		E1
+849	external service	other layer	Providers		E1

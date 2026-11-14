@@ -1,0 +1,10 @@
+claude-code Harness,Scheduling,Lifecycle,Retrieval,Registry,Identity,Approvals,Observability
+codex Sessions,Tasks,Scheduling,Models,Identity,Secrets,Policy,Evaluation
+grok-build Sessions,Tasks,Scheduling,Retrieval,Artifacts,Observability,Evaluation,Improvement
+antigravity Harness,Tasks,Scheduling,Artifacts,Models,Tools,Approvals,Releases
+claude-duet Sessions,Tasks,Scheduling,Retrieval,Artifacts,Models,Observability,Releases
+openai-dots Harness,Environments,Lifecycle,Artifacts,Identity,Secrets,Policy,Evaluation
+grok-bot Harness,Sessions,Artifacts,Orchestration,Channels,Approvals,Observability,Releases
+gemini-spark Lifecycle,Retrieval,Models,Tools,Secrets,Approvals,Improvement,Reliability
+meta-muse Sessions,Tasks,Scheduling,Lifecycle,Tools,Identity,Policy,Observability
+claude-managed-agents Environments,Scheduling,Memory,Registry,Channels,Secrets,Improvement,Reliability

@@ -1,0 +1,63 @@
+[1] MacKenzie, C. M., Laskey, K., McCabe, F., Brown, P. F. and Metz, R. (eds.). Reference Model for Service Oriented Architecture 1.0. OASIS Standard, 12 October 2006. docs.oasis-open.org  URL: https://docs.oasis-open.org/soa-rm/v1.0/soa-rm.html
+[2] Zimmermann, H. OSI Reference Model: The ISO Model of Architecture for Open Systems Interconnection. IEEE Transactions on Communications 28(4), 425-432, 1980.
+[3] Lu, Q. et al. Towards Responsible Generative AI: A Reference Architecture for Designing Foundation Model based Agents. arXiv:2311.13148  URL: https://arxiv.org/abs/2311.13148
+[4] Amazon Web Services. Amazon Bedrock AgentCore, developer guide. Read 9 and 11 November 2026. docs.aws.amazon.com  URL: https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html
+[5] Anthropic. Claude Managed Agents, overview. platform.claude.com  URL: https://platform.claude.com/docs/en/managed-agents/overview
+[6] Google. Gemini Enterprise Agent Platform, overview. Read 9 November 2026. docs.cloud.google.com  URL: https://docs.cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview
+[7] Microsoft. Foundry Agent Service, overview. 26 October 2026. learn.microsoft.com  URL: https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview
+[8] Trivedy, V. The Anatomy of an Agent Harness. LangChain, 10 March 2026. langchain.com  URL: https://langchain.com/blog/the-anatomy-of-an-agent-harness
+[9] Model Context Protocol. Architecture overview. modelcontextprotocol.io  URL: https://modelcontextprotocol.io/docs/learn/architecture
+[10] A2A Protocol. Specification, version 1.0.0. a2a-protocol.org  URL: https://a2a-protocol.org/latest/specification/
+[11] National Institute of Standards and Technology. Announcing the AI Agent Standards Initiative. 17 February 2026. nist.gov  URL: https://nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure
+[12] Yu, Rabhi, Zhu and Lu. A Reference Architecture for Integrating Agentic AI into Enterprise Software. October 2026. arXiv:2610.14818  URL: https://arxiv.org/abs/2610.14818
+[13] Zhu. Fluid Structure, Rigid Record. August 2026. arXiv:2608.08516  URL: https://arxiv.org/abs/2608.08516
+[14] Goujon. Agentic Architecture of Information Systems. The AAM/5C Model: A Reference Model for Distributed Autonomy. October 2026. arXiv:2610.30221  URL: https://arxiv.org/abs/2610.30221
+[15] Microsoft. Multi-Agent Reference Architecture. github.com/microsoft/multi-agent-reference-architecture  URL: https://github.com/microsoft/multi-agent-reference-architecture
+[16] Amazon Web Services. AWS Prescriptive Guidance on agentic AI (six guides). Read 11 November 2026.
+[17] Google Cloud. Architecture Center, agentic AI pages (17 pages). Read 11 November 2026.
+[18] El Hassani. Charterion v2.0. Zenodo, September 2026. doi:10.5281/zenodo.22829848  URL: https://doi.org/10.5281/zenodo.22829848
+[19] Longmire, J. D. and Longmire, M. AEON: An Enterprise Control Plane Architecture for the Agentic Era. Zenodo, 22 May 2026. zenodo.org/records/20349596  URL: https://zenodo.org/records/20349596
+[20] deVadoss. CEAD. May 2026. arXiv:2605.08258  URL: https://arxiv.org/abs/2605.08258
+[21] Salesforce Architects. The Agentic Enterprise: The IT Architecture for the AI-Powered Future. Undated. architect.salesforce.com  URL: https://architect.salesforce.com/docs/architect/fundamentals/guide/agentic-enterprise-it-architecture.html
+[22] Sharma and Shah. AOS-0001. August 2026. arXiv:2608.03214. With its precursor AOS-0000, arXiv:2606.01508  URL: https://arxiv.org/abs/2608.03214 ; https://arxiv.org/abs/2606.01508
+[23] Steinder and Franke. Towards an Agent Operating System: Lessons from Classical and Cloud OS. July 2026. arXiv:2607.25076  URL: https://arxiv.org/abs/2607.25076
+[24] Beheshti et al. The ASOC manifesto. July 2026. arXiv:2607.12619  URL: https://arxiv.org/abs/2607.12619
+[25] Venkiteela, P. An Enterprise Agentic Architecture Framework for Agentic AI Governance and Scalable Autonomy (EAAF). Scientific Journal of Computer Science 2(1), 2026. doi:10.64539/sjcs.v2i1.2026.368  URL: https://journal.futuristech.co.id/index.php/sjcs/article/view/368
+[26] Dehghani, Z. How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh. 2019. martinfowler.com. And Data Mesh Principles and Logical Architecture. 2020. martinfowler.com  URL: https://martinfowler.com/articles/data-monolith-to-mesh.html ; https://martinfowler.com/articles/data-mesh-principles.html
+[27] Skelton, M. and Pais, M. Team Topologies: key concepts. teamtopologies.com. And the Team API template, github.com/TeamTopologies/Team-API-template  URL: https://teamtopologies.com/key-concepts ; https://github.com/TeamTopologies/Team-API-template
+[28] Evans, E. Domain-Driven Design Reference: Definitions and Pattern Summaries. 2015. domainlanguage.com  URL: https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf
+[29] Levin, R., Cohen, E., Corwin, W., Pollack, F. and Wulf, W. Policy/Mechanism Separation in Hydra. Proceedings of the 5th Symposium on Operating Systems Principles, 132-140, 1975.
+[30] Dubrov. Domain-Driven Design for multi-agent systems. dinacode.com  URL: https://www.dinacode.com/en/blog/ddd-multi-agent-systems
+[31] Greenfield, J. and Short, K., with Cook, S. and Kent, S. Software Factories: Assembling Applications with Patterns, Models, Frameworks, and Tools. Wiley, 2004.
+[32] Remy, D. Agent Scrum. Working paper, 2026. doi:10.5281/zenodo.23771170  URL: https://doi.org/10.5281/zenodo.23771170
+[33] LangChain. LangGraph, LangSmith and LangSmith Deployment documentation. Read 11 November 2026. docs.langchain.com  URL: https://docs.langchain.com/langsmith/agent-server
+[34] OpenClaw. Documentation. Read 11 November 2026. docs.openclaw.ai  URL: https://docs.openclaw.ai/
+[35] Remy, D. Persistent Agents on Claude Code. Working paper, 2026. doi:10.5281/zenodo.23787644  URL: https://doi.org/10.5281/zenodo.23787644
+[36] Remy, D. Working Agents: a living research program. 2026. doi:10.5281/zenodo.24023471  URL: https://doi.org/10.5281/zenodo.24023471
+[37] Team Topologies. Team Topologies for the AI age: stewardship of value flow. teamtopologies.com  URL: https://teamtopologies.com/news-blogs-newsletters/team-topologies-for-the-ai-age-stewardship-of-value-flow
+[38] Wulveryck, O. Who does what? Team Topologies for the agentic platform. 22 June 2026. blog.owulveryck.info  URL: https://blog.owulveryck.info/2026/06/22/who-does-what-team-topologies-for-the-agentic-platform.html
+[39] Ferber, J., Gutknecht, O. and Michel, F. From Agents to Organizations: An Organizational View of Multi-agent Systems. In Agent-Oriented Software Engineering IV, LNCS 2935, 214-230. Springer, 2004. author copy  URL: https://www.lirmm.fr/~fmichel/publi/pdfs/ferber04ocmas.pdf
+[40] Zambonelli, F., Jennings, N. R. and Wooldridge, M. Developing Multiagent Systems: The Gaia Methodology. ACM Transactions on Software Engineering and Methodology 12(3), 317-370, 2003. author copy  URL: https://www.cs.ox.ac.uk/people/michael.wooldridge/pubs/tosem2003.pdf
+[41] Hübner, J. F., Sichman, J. S. and Boissier, O. A Model for the Structural, Functional, and Deontic Specification of Organizations in Multiagent Systems. SBIA 2002. author copy  URL: https://moise.sourceforge.net/doc/publications/Hubner-sbia2002.pdf
+[42] Dignum, V., Dignum, F. and Meyer, J.-J. An agent-mediated approach to the support of knowledge sharing in organizations. The Knowledge Engineering Review 19(2), 147-174, 2004. doi:10.1017/S0269888904000244
+[43] Horling, B. and Lesser, V. A Survey of Multi-Agent Organizational Paradigms. The Knowledge Engineering Review 19(4), 281-316, 2004. doi:10.1017/S0269888905000317
+[44] Microsoft. Cloud Adoption Framework for Azure, AI agents: Process to build agents across your organization. 1 December 2025. learn.microsoft.com  URL: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai-agents/build-secure-process
+[45] Hua, L. Beyond the Agent Harness: Boundary Criteria for Software-Factory Orchestration. A Single-Operator Case Study. November 2026. arXiv:2611.06946  URL: https://arxiv.org/abs/2611.06946
+[46] Li, G. et al. WorkMate: A Human-AI Collaborative Agent Infrastructure for Enterprise Organizational Governance. Zenodo, June 2026. doi:10.5281/zenodo.20644795  URL: https://doi.org/10.5281/zenodo.20644795
+[47] Kandogan, E. et al. Orchestrating Agents and Data for Enterprise: A Blueprint Architecture for Compound AI. April 2025. arXiv:2504.08148  URL: https://arxiv.org/abs/2504.08148
+[48] Xia, B. et al. Evaluation-Driven Development and Operations of LLM Agents: A Process Model and Reference Architecture. arXiv:2411.13768  URL: https://arxiv.org/abs/2411.13768
+[49] Gürcan, Ö. Modélisation à base d'Agents Augmentés par LLM pour les Simulations Sociales: Défis et Opportunités. 27 August 2024. In French. arXiv:2409.00100  URL: https://arxiv.org/abs/2409.00100
+[50] Foundation for Intelligent Physical Agents. FIPA Agent Management Specification. SC00023K, 2004. Read from an archived copy of fipa.org.  URL: http://www.fipa.org/specs/fipa00023/SC00023K.html
+[51] Esteva, M., de la Cruz, D. and Sierra, C. ISLANDER: an electronic institutions editor. AAMAS 2002, 1045-1052. doi:10.1145/545056.545069
+[52] Esteva, M., Rosell, B., Rodríguez-Aguilar, J. A. and Arcos, J. L. AMELI: An Agent-based Middleware for Electronic Institutions. AAMAS 2004, 236-243. author copy  URL: https://www.iiia.csic.es/media/filer_public/b8/a0/b8a0f2a8-6ab7-49af-a6b8-597b95af9c18/iiia-2004-896.pdf
+[53] Boissier, O., Bordini, R. H., Hübner, J. F., Ricci, A. and Santi, A. Multi-agent oriented programming with JaCaMo. Science of Computer Programming 78(6), 747-761, 2013. doi:10.1016/j.scico.2011.10.004
+[54] MOISE project. ORA4MAS organisational artifacts: SchemeBoard and GroupBoard. API documentation, read 12 November 2026. moise-lang.github.io  URL: https://moise-lang.github.io/doc/api/ora4mas/nopl/SchemeBoard.html
+[55] Anthropic. Claude Code documentation. Version 2.1.322. Read 12 November 2026. code.claude.com/docs  URL: https://code.claude.com/docs
+[56] OpenAI. Codex documentation. Codex CLI 0.167.2. Read 12 November 2026. learn.chatgpt.com/docs  URL: https://learn.chatgpt.com/docs
+[57] xAI. Grok Build documentation and changelog. Changelog entry v1.0.77. Read 12 November 2026. docs.x.ai/build  URL: https://docs.x.ai/build
+[58] Google. Antigravity documentation. App v2.31.2, CLI v1.5.7. Read 12 November 2026. antigravity.google/docs  URL: https://antigravity.google/docs
+[59] Anthropic. Claude Duet: product page, help articles and the article on safety, privacy and security. Research preview. Read 12 November 2026. claude.com/product/claude-duet  URL: https://claude.com/product/claude-duet
+[60] OpenAI. Dots documentation. No version number is published. Read 12 November 2026, in part from archived copies. learn.chatgpt.com/docs/dots  URL: https://learn.chatgpt.com/docs/dots
+[61] xAI. Grok Bot documentation and changelog. Desktop v1.0.1. Read 12 November 2026. docs.x.ai/grok-bot  URL: https://docs.x.ai/grok-bot
+[62] Google. Tasks in Gemini (formerly Gemini Spark): Gemini Apps Help. No version number is published. Read 12 November 2026. support.google.com/gemini  URL: https://support.google.com/gemini
+[63] Meta. Muse: help center and newsroom posts. iOS app 15.1. Read 12 November 2026. meta.com/help/superintelligence  URL: https://www.meta.com/help/superintelligence
