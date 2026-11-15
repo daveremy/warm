@@ -1,5 +1,7 @@
 # WARM: the Working Agents Reference Model
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24238372.svg)](https://doi.org/10.5281/zenodo.24238372)
+
 Part of **Working Agents**, a living series of working papers on operating AI agents and agent software development: [the plan and index](https://daveremy.github.io/working-agents/) · [all papers on Zenodo](https://zenodo.org/communities/working-agents).
 
 The parts of a system in which agents finish work end to end, and a rule for reviewing every stop
@@ -62,6 +64,6 @@ remain their authors'.
 ## Citation
 
 Remy, D. *WARM: the Working Agents Reference Model.* Working paper, version 0.1, November 2026.
-https://github.com/daveremy/warm
+https://doi.org/10.5281/zenodo.24238372
 
 *Created in collaboration with AI.*
