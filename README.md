@@ -10,20 +10,24 @@ models, and mapped to ten vendor products.
 
 **Read the paper:** [web](https://daveremy.github.io/warm/) · [PDF](docs/warm.pdf) · [source](docs/index.html)
 
+**Short on time?** [The short article](https://daveremy.github.io/warm/article.html) · [the narrated talk, 15 minutes](https://daveremy.github.io/warm/warm-talk.mp4) · [the deck, 44 slides (PDF)](docs/warm-deck.pdf)
+
 **Check the evidence:** [the supplement](supplement/), with its own [README](supplement/README.md)
 
 ## In one paragraph
 
 WARM names the parts of a system of AI agents and how they relate. People direct the work, domains
 define it, agents carry it out, and a platform of 25 services in six groups provides what agents in
-every domain share. The model is written for systems in which agents finish work without a person
-approving each action, and its central rule follows from that aim: every stop for a person is
-recorded and reviewed. The review asks whether the stop needed a person, whether a decision could
-have been made in advance, and what change would remove the stop next time. The rule is a proposal
-that the source system does not yet carry out. The paper maps the model to three agent platforms,
-compares it with fourteen published models, and reads ten vendor products against it from their
-vendors' documentation (first readings 12 November 2026). WARM is a working model drawn largely from
-one system, and no evidence yet shows that organizing a system this way improves it.
+every domain share. The model was drawn first from a working system and took its vocabulary from a
+survey of 34 sources; mappings of three agent platforms and comparisons with fourteen published models
+corrected it in more than twenty places. Every platform service has at least a partial counterpart in
+nine or more of the seventeen platforms and models. Two of the seventeen define an area of work in
+their model, an idea the organizational multi-agent literature of 2002 to 2004 already specified. Ten
+vendor products, read from their vendors' documentation from 12 November 2026, all rate in full on the
+agent loop, retrieval and tools; no reading established a full rating on a directory, identity, policy,
+evaluation, improvement or releases. The model also proposes that every stop for a person is recorded
+and reviewed. WARM is a working model drawn largely from one system, and no evidence yet shows that
+organizing a system this way improves it.
 
 ## The evidence supplement
 
@@ -40,6 +44,7 @@ other text did.
 
 ## Versions
 
+- **0.1.1**, 17 November 2026: the subtitle and abstract lead with what was mapped and what was found; the review of stops for a person is presented as one proposal; the conclusion and Section 7 say the refactoring has begun and its measures are not yet set. No count, rating or table changed.
 - **0.1**, 14 November 2026: first version (model version 0.14).
 
 ## What this is, and is not
@@ -63,7 +68,7 @@ remain their authors'.
 
 ## Citation
 
-Remy, D. *WARM: the Working Agents Reference Model.* Working paper, version 0.1, November 2026.
+Remy, D. *WARM: the Working Agents Reference Model.* Working paper, version 0.1.1, November 2026.
 https://doi.org/10.5281/zenodo.24238372
 
 *Created in collaboration with AI.*
